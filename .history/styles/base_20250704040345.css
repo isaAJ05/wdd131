@@ -86,8 +86,12 @@ section{
 
 .country{
     display: flex;
-    flex: 1 0 auto;
-    align-items: center;
+    .card h3{
+    border-bottom: 1px solid gray;
+    padding: 0 20px;
+    margin: 0 100px;
+    text-align: center;
+}
 }
 .card figure{
     margin: 0;

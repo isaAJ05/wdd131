@@ -87,7 +87,6 @@ section{
 .country{
     display: flex;
     flex: 1 0 auto;
-    align-items: center;
 }
 .card figure{
     margin: 0;
@@ -104,7 +103,6 @@ section{
     padding: 8px;
     font-size: 0.8rem;
 }
-
 
 
 .card ul{

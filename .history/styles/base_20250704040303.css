@@ -104,7 +104,9 @@ section{
     padding: 8px;
     font-size: 0.8rem;
 }
-
+.country p{
+    padding: 20px;
+}
 
 
 .card ul{

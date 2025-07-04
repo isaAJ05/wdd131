@@ -86,8 +86,7 @@ section{
 
 .country{
     display: flex;
-    flex: 1 0 auto;
-    align-items: center;
+    
 }
 .card figure{
     margin: 0;
