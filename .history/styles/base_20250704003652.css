@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #cdb4db;
+    --secondary-color: #ffc8dd;
+    --accent1-color: #ffafcc;
+    --accent2-color: #bde0fe;
+        --accent2-color: #bde0fe;
+    --heading-font: "Play", sans-serif;
+    --body-font: "Raleway", sans-serif;
+}
