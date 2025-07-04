@@ -46,7 +46,7 @@ nav ul li {
 main{
     display: grid;
     grid-template: auto 1fr / 2fr 1fr;
-    max-width: 1600px;
+    max-width: 00px;
     margin: 0 auto;
 }
 main h1{
