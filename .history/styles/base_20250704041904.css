@@ -4,6 +4,7 @@
     --font: "Lato", sans-serif;
 }
 header, main, footer {
+}
     font-family: var(--font);
 }
 .course-title{
@@ -46,7 +47,6 @@ nav ul li {
 main{
     display: grid;
     grid-template: auto 1fr / 2fr 1fr;
-    max-width: auto;
 }
 main h1{
     grid-column: 1/3;
