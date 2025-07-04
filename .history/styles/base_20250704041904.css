@@ -4,6 +4,7 @@
     --font: "Lato", sans-serif;
 }
 header, main, footer {
+}
     font-family: var(--font);
 }
 .course-title{
