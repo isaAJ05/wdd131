@@ -15,14 +15,13 @@ button.addEventListener("click", function () {
 
         li.append(deleteButton);
         list.append(li);
-        deleteButton.addEventListener("click", function () {
+        deleteButton.AddEventListener("click", function () {
             list.removeChild(li);
             input.focus();
-            
         });
-        input.value = '';
-        input.focus();
+        
     }
+    
     
 });
 

@@ -4,7 +4,7 @@ const list = document.querySelector("#list");
 
 
 
-button.addEventListener("click", function () {
+button.AddEventListener("click", function () {
     if (input.value.trim() != "") {
 
         const li = document.createElement("li");
@@ -15,14 +15,12 @@ button.addEventListener("click", function () {
 
         li.append(deleteButton);
         list.append(li);
-        deleteButton.addEventListener("click", function () {
+
+        deleteButton.AddEventListener("click", function () {
             list.removeChild(li);
-            input.focus();
-            
         });
-        input.value = '';
+        input.value = " ";
         input.focus();
     }
-    
 });
 
