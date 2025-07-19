@@ -1,0 +1,13 @@
+@media screen and (min-width: 500px) {
+    main {
+    display:grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 25px;
+    place-items: center;
+}
+    main h1{
+        grid-column: 1/3;
+    }
+
+    
+}

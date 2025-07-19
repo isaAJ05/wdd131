@@ -1,0 +1,22 @@
+@media screen and (min-width: 500px) {
+    main {
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 25px;
+    place-items: center;
+}
+    main h1{
+        grid-column: 1/4;
+    }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+    nav ul {
+        flex-direction: row; /* horizontal menu */
+    }
+    nav a {
+        font-size: 1.2rem; 
+    }
+
+}

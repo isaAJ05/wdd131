@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #231942;
+    --secondary-color: #5e548e;
+    --font: "Lato", sans-serif;
+}
+header, main, footer {
+    font-family: var(--font);
+}
