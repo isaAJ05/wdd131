@@ -1,0 +1,35 @@
+@media screen and (min-width: 500px) {
+    
+    main {
+        max-width: 1000px;
+    }
+    main {
+    display:grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 25px;
+    place-items: center;
+    margin: 1rem auto;
+}
+    
+    main h2{
+        grid-column: 1/4;
+    }
+    #menu {
+		display: none; 
+	}
+    header{
+        display: flex;
+    }
+    h1{
+        margin: 0 auto;
+        text
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation a {
+        font-size: 1.2rem; 
+        display: block;
+    }
+
+}
