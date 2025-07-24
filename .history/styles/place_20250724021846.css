@@ -87,9 +87,9 @@ section ul li {
     font-weight: 400;
     font-family: var(--font-two);
 }
-.hero section img{
+section img{
     width: 150px;
-    height: auto;
+    height: 150;
     display: block;
     margin: 0 auto;
 }
@@ -97,6 +97,15 @@ section ul li {
     font-weight: 700;
 }
 
+.label-value {
+	width: 201px;
+	height: 39px;
+	color: #232323;
+	font-family: "Besley";
+	font-weight: 400;
+	font-size: 24px;
+	text-align: left;
+}
 footer{
     font-family: var(--font-one);
     color:  var(--font-color);
