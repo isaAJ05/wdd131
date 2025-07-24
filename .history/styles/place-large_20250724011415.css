@@ -1,0 +1,46 @@
+@media screen and (min-width: 700px) {
+
+    main {
+        max-width: 2000px;
+    }
+
+    .hero{
+        position: relative;
+
+    }
+    .hero picture, .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    }
+    .hero section .one {
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+    .hero section .left {
+        position: absolute;
+        top: 0;
+        left: 0;
+}
+    .hero section h2{
+        background: var(--secondary-color);
+        border-color: var(--secondary-color);
+        border-width: 1px;
+        border-style: solid;
+        text-align: left;
+    }
+    .hero section img{
+        display: none;
+    }
+.rectangle-6 {
+	width: 254px;
+	height: 386px;
+	padding: 8px 8px 8px 8px;
+	
+}
+
+}
+    
+    

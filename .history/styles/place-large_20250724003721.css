@@ -1,0 +1,15 @@
+@media screen and (min-width: 700px) {
+
+    main {
+        max-width: 1300px;
+    }
+    .hero picture,
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+}
+    
+    

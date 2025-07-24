@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #FEF67F;
+    --secondary-color: #5e548e;
+    --font: "Berkshire Swash", serif;
+}
+
+h1 {
+  font-family: var(--font);
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+.rectangle-1 {
+	width: 700px;
+	height: 80px;
+	padding: 8px 8px 8px 8px;
+	background: #FEF67F;
+	border-color: #FEF67F;
+	border-width: 1px;
+	border-style: solid;
+}

@@ -1,0 +1,68 @@
+@media screen and (min-width: 700px) {
+
+    main {
+        max-width: 2000px;
+    }
+
+    .hero{
+        position: relative;
+
+    }
+    .hero picture, .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    }
+    .hero section .one {
+        width: 254px;
+	    padding: 8px 8px 8px 8px;
+        position: absolute;
+        opacity: 86%;
+        top: 0;
+        left: 0;
+        background: #FFFFFF;
+        border-color: #FFFFFF;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 14px;
+}
+    .hero section .two {
+        width: 254px;
+	    padding: 8px 8px 8px 8px;
+        position: absolute;
+        opacity: 86%;
+        top: 55%;
+        right: 0;
+        background: #FFFFFF;
+        border-color: #FFFFFF;
+        border-width: 1px;
+        border-style: solid;
+        font-size: 14px;
+}
+
+    .hero section h2{
+        background: var(--secondary-color);
+        border-color: var(--secondary-color);
+        border-width: 1px;
+        border-style: solid;
+        text-align: left;
+        
+        
+    }
+    .hero section h2 .left{
+        top: 0;
+        left: 0;
+    }
+    .hero section h2 .right{
+        top: 0;
+        left: 0;
+    }
+    .hero section img{
+        display: none;
+    }
+
+
+}
+    
+    

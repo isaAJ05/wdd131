@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Place</title>
+    <meta name="description" content="WDD 131 – This a page that shows information about a country">
+    <meta name="author" content="Isabella Arrieta">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Besley:ital,wght@0,400..900;1,400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="rectangle-1">
+            <h1>Colombia</h1>
+        </div>
+        <div class="rectangle-2">
+        </div>
+        <div class="rectangle-3">
+        </div>
+        
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px )" srcset="images\pexels-jose-de-la-ossa-327517824-13810852.webp">
+                <source media="(min-width: 700px )" srcset="images\pexels-yulieth-andrea-327516250-13808386.webp">
+                <img src="images/cumbia-smaller.webp" alt="Cumbia Barranquilla Colombia" width="558" height="349">
+            </picture>
+        </div>
+        <div class="container-3">
+        </div>
+        <section>
+            <h2>Data</h2>
+            <ul>
+                <li><span class="label">Area:</span> 1,141,748 sq km</li>
+                <li><span class="label">Population:</span> 53,415,527 (2025 estimate)</li>
+                <li><span class="label">Capital:</span> Bogotá</li>
+                <li><span class="label">Languages:</span> Spanish (official), with 68+ indigenous languages</li>
+                <li><span class="label">Currency:</span> Colombian Peso (COP)</li>
+                <li><span class="label">Time Zone:</span> UTC−5 (Colombia Time - COT)</li>
+                <li><span class="label">Calling Code:</span> +57</li>
+                <li><span class="label">Internet TLD:</span> .co</li>
+            </ul>
+        </section>
+        <section>
+            
+            <h2>Weather</h2>
+            <img src="images/weather-icon.svg" alt-"Weather Icon">
+            <ul>
+                <li><span class="label">Temperature:</span> 54°F (12°C)</li>
+                <li><span class="label">Conditions:</span> Mostly Cloudy</li>
+                <li><span class="label">Wind:</span> 6 km/h</li>
+                <li><span class="label">Wind Chill:</span> <span id="windchill"></span></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+            <p>
+            ©️<span id="currentyear"></span> 🌻 Isabella Arrieta 🌻 Barranquilla, Colombia
+        </p>
+        <p class="last-modified">
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    
+</body>
+</html>

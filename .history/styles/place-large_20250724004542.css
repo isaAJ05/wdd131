@@ -1,0 +1,39 @@
+@media screen and (min-width: 700px) {
+
+    main {
+        max-width: 2000px;
+    }
+    .hero picture, .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    }
+    section{
+	width: 254px;
+	height: 386px;
+	padding: 8px 8px 8px 8px;
+	opacity: 86%;
+	background: #FFFFFF;
+	border-color: #FFFFFF;
+	border-width: 1px;
+	border-style: solid;
+    position: absolute;
+}
+section h2{
+    background: var();
+	border-color: #3D8AF7;
+	border-width: 1px;
+	border-style: solid;
+
+}
+.rectangle-7 {
+	width: 256px;
+	height: 55px;
+	padding: 8px 8px 8px 8px;
+	
+}
+
+}
+    
+    
