@@ -1,0 +1,144 @@
+:root {
+    --primary-color: #1b4332;
+    --secondary-color: #5e548e;
+    --font: "Lato", sans-serif;
+}
+
+body {
+    font-family: var(--font);
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+	background: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+    display: grid;
+    
+}
+
+main { 
+    max-width: 700px;;
+    margin: 0.5rem ;
+}
+nav { 
+    margin: 0 auto;
+}
+
+h1{
+	font-size: 2rem;
+    display: block;
+}
+.open h1{
+    display: none;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+    
+}
+#menu {
+	font-size: 2rem;
+	border: 0;
+	background: none;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+    color: white;
+}
+
+#menu.open::before {
+	content: "✖";
+    color: white;
+}
+
+.navigation {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+    color: #fff;
+}
+
+.navigation a {
+	display: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.navigation a:hover {
+	text-decoration: underline;
+	background-color: #eee;
+	color: #000;
+}
+.open a {
+	display: block;
+}
+h3{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    text-align: center;
+}	
+
+
+figure {
+    background-color:#fff;
+    
+    }
+section img { 
+    width: 100%; 
+    height: auto;
+    display: block;
+    animation: fade 5s;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+figcaption {
+    font-size: smaller;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    padding-bottom:1rem;
+}
+.hover:hover {
+    box-shadow: 0 0 50px #333;
+}
+.label{
+    font-weight: 700;
+    color: var(--primary-color);
+    
+}
+footer{
+    color:  #fff;
+    background: var(--primary-color);
+    text-align: center;
+    padding: 8px;
+    
+}
+footer p {
+    padding: 4px;
+}
+.last-modified {
+    font-size: 0.8rem;
+    color: yellow;
+}
