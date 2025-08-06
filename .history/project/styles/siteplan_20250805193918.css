@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #cdb4db;
+    --secondary-color: #ffc8dd;
+    --thirdary-color: #ffafcc;
+    --accent-color: #bde0fe;
+    --background-color: #ffffff;
+    --font-one: "Poppins", sans-serif;
+    --font-two: "Nunito", sans-serif;
+    --font-three: "Quicksand", sans-serif;
+}
+body {
+  font-family: var(--font-one);
+  background-color: var(--background-color);
+  color:    
+}
+
+h1, h2, h3 {
+  font-family: 'Play', sans-serif;
+  color: #cdb4db;
+}

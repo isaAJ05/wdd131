@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #9d4edd;       
+    --secondary-color: #fa198b;      
+    --thirdary-color: #ff6f91;       
+    --accent-color: #3a86ff; 
+    --font-one: "Poppins", sans-serif;
+    --font-two: "Nunito", sans-serif;
+    --font-three: "Quicksand", sans-serif;
+}
+body {
+    font-family: var(--font-one);
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+h1, h2, h3 {
+    font-family: var(--font-two);
+    color: var(--secondary-color);
+}

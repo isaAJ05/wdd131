@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #cdb4db;
+    --secondary-color: #ffc8dd;
+    --thirdary-color: #ffafcc;
+    --accent-color: #bde0fe;
+    --background-color: #ffffff;
+    --font-one: "Poppins", sans-serif;
+    
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Play', sans-serif;
+  color: #cdb4db;
+}

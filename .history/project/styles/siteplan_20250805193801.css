@@ -1,0 +1,24 @@
+:root {
+     <li>Purple (#cdb4db)</li>
+                <li>Light Pink (#ffc8dd)</li>
+                <li>Coral Pink (#ffafcc)</li>
+                <li>Light Blue (#bde0fe)</li>
+                <li>Sky Blue (#a2d2ff)</li>
+                <li>White (#ffffff)</li>
+    --primary-color: #cdb4db;
+    --secondary-color: #ffc8dd;
+    --thirdary-color: #9a8c98;
+    --accent-color: #cdb4db;
+    --background-color: #f0e6f6;
+    --font: "Lato", sans-serif;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Play', sans-serif;
+  color: #cdb4db;
+}

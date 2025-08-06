@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #231942;
+    --secondary-color: #5e548e;
+    --thirdary-color: #9a8c98;
+    --accent-color: #cdb4db;
+    --background-color: #f0e6f6;
+    --font: "Lato", sans-serif;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Play', sans-serif;
+  color: #cdb4db;
+}
