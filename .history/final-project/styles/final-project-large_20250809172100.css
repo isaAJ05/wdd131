@@ -1,0 +1,184 @@
+@media screen and (min-width: 700px) {
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+    
+    .title {
+    text-align: center;
+    background-color: var(--background-color);
+    }
+    .title img {
+        width: 200px;
+        height: auto;
+    }
+    #menu {
+		display: none; 
+	}
+    header{
+        display: flex;
+    }
+    .title {
+        flex: 1;
+        text-align: left;
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation a {
+        font-size: 1.2rem;
+        display: block;
+		flex: 1 1 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+    
+    .card{
+        width: 500px;
+    }
+    .hero {
+        position: relative;
+        background-color: var(--thirdary-color);
+}
+    
+    
+
+    .one {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.4); 
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 90%;
+        border-bottom: none;
+    }
+
+    .two {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.4);
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 90%;
+        margin: 0;
+    }
+
+    .two .card {
+        background: rgba(255,255,255,0.9); 
+        color: black;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    .arrow{
+        color: white;
+    }
+    .two h2{
+        margin: 0;
+    }
+    
+}
+@media screen and (min-width: 800px) {
+    main {
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+    
+    .title {
+    text-align: center;
+    background-color: var(--background-color);
+    }
+    .title img {
+        width: 200px;
+        height: auto;
+    }
+    #menu {
+		display: none; 
+	}
+    header{
+        display: flex;
+    }
+    .title {
+        flex: 1;
+        text-align: left;
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation a {
+        font-size: 1.2rem;
+        display: block;
+		flex: 1 1 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+    
+    .card{
+        width: 500px;
+    }
+    .hero {
+        position: relative;
+        background-color: var(--thirdary-color);
+}
+    
+    
+
+    .one {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.4); 
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 90%;
+        border-bottom: none;
+    }
+
+    .two {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.4);
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 90%;
+    }
+
+    .two .card {
+        background: rgba(255,255,255,0.9); 
+        color: black;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    .arrow{
+        color: white;
+    }
+    .btn-form {
+        justify-self: center;
+        width: 40%;
+    }
+    
+}
