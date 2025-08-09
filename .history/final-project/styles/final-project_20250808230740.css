@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #5a189a;       
+    --secondary-color: #fa198b;      
+    --thirdary-color: #ff6f91;       
+    --accent-color: #3a86ff; 
+    --font-one: "Poppins", sans-serif;
+    --font-two: "Nunito", sans-serif;
+    --font-three: "Quicksand", sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

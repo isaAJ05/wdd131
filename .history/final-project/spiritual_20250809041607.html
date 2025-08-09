@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Up Zone – Spiritual Growth</title>
+    <meta name="description" content="WDD 131 – This website is a positive and inspiring space for girls who want to improve different areas of their lives. It will include tips and resources organized into four sections: Spiritual, Social, Physical, and Intellectual.">
+    <meta name="author" content="Isabella Arrieta">
+    <link rel="stylesheet" href="styles/final-project.css">
+    <link rel="stylesheet" href="styles/final-project-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&family=Poppins:wght@400;600;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="scripts/final-project.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="images/logo.png" alt="" title="">
+        </div>
+        <button type="button" id="menu" title="Hambutton"></button>
+        <nav>
+            <ul class="navigation">
+			<li><a href="final-project.html" class="home">Home</a></li>
+			<li><a href="spiritual.html" class="spiritual">Spiritual</a></li>
+			<li><a href="social.html" class="social">Social</a></li>
+			<li><a href="intellectual.html" class="intellectual">Intellectual</a></li>
+			<li><a href="physical.html" class="physical">Physical</a></li>
+		</ul>
+        </nav>
+    </header>
+    <main>
+            <section class="hero">
+      <img src="images/hero-spiritual.jpg" alt="Peaceful landscape" loading="lazy">
+      <div class="hero-overlay">
+        <h1>Nourish Your Spirit</h1>
+        <p>Practical ways to grow closer to God, find peace, and serve others.</p>
+      </div>
+    </section>
+
+    <!-- Quote of the Day -->
+    <section class="quote" aria-labelledby="qod-heading">
+      <h2 id="qod-heading">Quote of the Day</h2>
+      <p id="quote-text" class="quote-text" aria-live="polite"></p>
+      <p class="quote-source" id="quote-source" style="font-size:0.9rem;opacity:0.9;"></p>
+    </section>
+
+    <!-- Daily Scripture -->
+    <section class="one" aria-labelledby="daily-scripture">
+      <h2 id="daily-scripture">Daily Scripture</h2>
+      <p>Read a short passage and reflect for a few minutes.</p>
+      <div class="scripture-card" id="scripture-card">
+        <p id="scripture-text" style="font-style:italic;"></p>
+        <p id="scripture-ref" style="text-align:right;font-weight:600;"></p>
+      </div>
+      <button id="next-scripture" class="btn">Next Scripture</button>
+    </section>
+
+    <!-- Inspirational Talks -->
+    <section class="two" aria-labelledby="inspirational-talks">
+      <h2 id="inspirational-talks">Inspirational Talks</h2>
+      <p>Short excerpts and links to conference messages that uplift and teach.</p>
+      <ul>
+        <li><a href="#" class="external-link">Talk title — Speaker (link to source)</a></li>
+        <li><a href="#" class="external-link">Talk title — Speaker (link to source)</a></li>
+        <!-- Reemplaza con links reales y añádelos en references.html -->
+      </ul>
+    </section>
+
+    <!-- Acts of Service -->
+    <section class="one" aria-labelledby="acts-service">
+      <h2 id="acts-service">Acts of Service</h2>
+      <p>Small ideas to serve at home and in your community.</p>
+      <ul>
+        <li>Write a short note of encouragement to someone.</li>
+        <li>Help a neighbor with a small task.</li>
+        <li>Volunteer at a local community event or church activity.</li>
+      </ul>
+    </section>
+
+    <!-- Faith Challenge -->
+    <section class="two" aria-labelledby="faith-challenge">
+      <h2 id="faith-challenge">Weekly Faith Challenge</h2>
+      <p>Try this small challenge for the week to strengthen your faith.</p>
+      <ol>
+        <li>Read one scripture each morning and write one sentence about what it taught you.</li>
+        <li>Perform one act of service during the week.</li>
+        <li>Say a short prayer of gratitude each evening.</li>
+      </ol>
+    </section>
+    
+    </main>
+    <footer>
+            <p>
+            ©️<span id="currentyear"></span> 🌻 Isabella Arrieta 🌻 Barranquilla, Colombia
+        </p>
+        <p class="last-modified">
+            <span id="lastModified"></span>
+        </p>
+        <a href="references.html" class="reference">References</a>
+    </footer>
+    
+</body>
+</html>

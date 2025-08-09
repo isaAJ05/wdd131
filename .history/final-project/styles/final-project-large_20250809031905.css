@@ -1,0 +1,50 @@
+@media screen and (min-width: 700px) {
+    main {
+        max-width: 1000px;
+        margin: 1rem auto;
+        
+    }
+    
+    .title {
+    text-align: center;
+    background-color: var(--background-color);
+    }
+    .title img {
+        width: 200px;
+        height: auto;
+    }
+    #menu {
+		display: none; 
+	}
+    header{
+        display: flex;
+    }
+    .title {
+        flex: 1;
+        text-align: left;
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation a {
+        font-size: 1.2rem;
+        display: block;
+		flex: 1 1 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+    
+    
+    .two{
+        align-items: center;
+    }
+    .btn {
+    slign
+}
+    
+    
+}

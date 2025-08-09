@@ -1,0 +1,93 @@
+@media screen and (min-width: 700px) {
+    main {
+        max-width: 1000px;
+        margin: 1rem auto;
+        
+    }
+    
+    .title {
+    text-align: center;
+    background-color: var(--background-color);
+    }
+    .title img {
+        width: 200px;
+        height: auto;
+    }
+    #menu {
+		display: none; 
+	}
+    header{
+        display: flex;
+    }
+    .title {
+        flex: 1;
+        text-align: left;
+    }
+    .navigation{
+        flex-direction: row;
+    }
+    .navigation a {
+        font-size: 1.2rem;
+        display: block;
+		flex: 1 1 100%;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: var(--primary-color);
+    }
+    
+    
+    .cards{
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 500px;
+        margin: 1rem;
+    }
+    .hero {
+        position: relative;
+    }
+
+    .one {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.4); 
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 80%;
+    }
+
+    .two {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: white;
+        background: rgba(0,0,0,0.4);
+        padding: 1rem;
+        border-radius: 10px;
+        max-width: 90%;
+    }
+
+    .two .card {
+        background: rgba(255,255,255,0.9); 
+        color: black;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    .card2{
+        
+    }
+    
+    
+    
+    
+}
