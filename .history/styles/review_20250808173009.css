@@ -1,0 +1,18 @@
+body{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+footer{
+
+    position: relative;
+
+    color:  #fff;
+    background: #5a189a;
+    text-align: center;
+    padding: 8px;
+    
+    
+}
+footer p {
+    padding: 4px;
+}

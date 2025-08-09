@@ -1,0 +1,18 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+body{
+    margin: 1rem
+}
+footer{
+    min-height: 70px;
+    color:  #fff;
+    background: #5a189a;
+    text-align: center;
+    padding: 8px;
+    
+    
+}
+footer p {
+    padding: 4px;
+}

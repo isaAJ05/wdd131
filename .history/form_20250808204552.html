@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Product Review Form</title>
+    <meta name="description" content="WDD 131 – This a page that shows to the user a product review form.">
+    <meta name="author" content="Isabella Arrieta">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Play:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head><body>
+    <header>
+        <div class="title">
+            <h1>Product Review</h1>
+        </div>
+    </header>
+    <main>
+        <form method="get" action="review.html">
+            <fieldset>
+                <section>
+                    <label>Product Name</label>
+                    <select id="productName" name="productName" required>
+                    <option value="1" id="numberOne" >Choose a Product...</option>
+                    </select>
+                </section>
+                
+                <section>
+                    <label>Overall Rating</label>
+                    <div class="stars">
+                        <input type="radio" id="fivestar" name="stars" value="5" required><label for="fivestar"></label>
+                        <input type="radio" id="fourstar" name="stars" value="4" required><label for="fourstar"></label>
+                        <input type="radio" id="threestar" name="stars" value="3" required><label for="threestar"></label>
+                        <input type="radio" id="twostar" name="stars" value="2" required><label for="twostar"></label>
+                        <input type="radio" id="onestar" name="stars" value="1" required><label for="onestar"></label>
+                    </div>
+                </section>
+
+                <section>
+                    <label>Date of Installation</label>
+                    <input type="date" id="date" name="date" required>
+                </section>
+
+                <section> 
+                    <label>Which features did you find useful in the product? <br>(Check all that apply)</label>
+                    <div class="vcentered">
+	                    <input type="checkbox" id="task" name="task" value="task">
+                        <label for="task" class="inline"> Durability</label>
+                        <input type="checkbox" id="task" name="task" value="task2"> 
+                        <label for="task" class="inline"> <br>Ease of Use</label>
+                        <input type="checkbox" id="task" name="task" value="task3"> 
+                        <label for="task" class="inline"> Performance</label>
+                        <input type="checkbox" id="task" name="task" value="task4"> 
+                        <label for="task" class="inline"> Design</label>
+                    </div> 
+                </section>
+
+                <section>
+                    <label for="feedback">Written Review (Optional)</label>
+                    <textarea id="feedback" name="feedback" rows="4"></textarea>
+                </section>
+
+                <section>
+                    <label for="user">Your name (Optional)</label>
+                    <input type="text" id="user" name="user">
+                </section>
+
+                <button type="submit">Post Review</button>
+            </fieldset>
+            
+            
+            
+        </form>
+    </main>
+    <footer>
+        <p>
+            ©️<span id="currentyear"></span> 🌻 Isabella Arrieta 🌻 Barranquilla, Colombia
+        </p>
+        <p class="last-modified">
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>

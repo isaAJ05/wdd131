@@ -1,0 +1,8 @@
+@media screen and (min-width: 500px) {
+    fieldset {
+        width: 50%;
+    }
+    * {
+        padding: 0.5rem;
+    }
+}

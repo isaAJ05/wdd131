@@ -1,0 +1,99 @@
+body{
+    font-family: "Lato", sans-serif;
+    margin: 1rem;
+}
+
+* {
+	box-sizing: border-box;
+    padding: 0;
+}
+fieldset{
+	background-color: #f0f0f0;
+	padding: 1rem;
+	border-radius: 5px ;
+	border: 1px solid #ccc;
+	border-color: #f0f0f0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.title {
+	background-color: #5a189a;
+	height: 60px;
+	margin-bottom: 10px;
+
+}
+h1{
+	text-align: center;
+	color: white;
+	margin: 0
+	
+}
+section {
+    margin: 1rem 0;
+	
+}
+label {
+	display: block;
+    font-weight: bold;
+}
+
+/* stars */
+input[type="radio"] {
+	display: none;
+	position: relative;
+	caret-color: rgba(0, 0, 0, 0);
+}
+
+.stars {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: left;
+}
+
+.stars > label {
+	color: gold;
+	width: 30px;
+	height: 30px;
+	font-size: 2rem;
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
+	caret-color: rgba(0, 0, 0, 0); /* remove blinking cursor*/
+}
+
+.stars > label:hover {
+	color: #000;
+}
+
+.stars > label::before {
+	content: "\2606";
+}
+
+.stars input:checked ~ label::before {
+	content: "\2605";
+}
+
+
+/* Checkbox *******************************************/
+input[type=checkbox] {
+	margin-left: 10px;
+}
+/* Note the enlargement from the standard, tiny checkbox */
+#task {
+	width: 25px;
+	height: 25px;
+}
+
+.vcentered {
+	display: flex;
+	align-items: center;
+}
+
+/* other */
+.inline {
+	display: inline;
+}
+
+.ref {
+	font-size: 13px;
+	margin-top: 1rem;
+}
